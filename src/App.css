@@ -1,0 +1,39 @@
+*,
+body,
+html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #181818;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.form {
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+}
+
+.border {
+  justify-content: center;
+  display: block;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  padding: 30px;
+  margin: 30px;
+}
+
+.search {
+  width: 60vw;
+  border: 2px solid #0F54C1;
+  display: flex;
+  flex: 1;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 20px;
+}
+
